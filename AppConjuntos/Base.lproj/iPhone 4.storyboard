@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AdobeGothicStd-Bold.otf">
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+            <string>AdobeGothicStd-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="First" id="BYZ-38-t0r" customClass="ViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="RMk-r1-tgo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTE-tn-HMd">
+                                <rect key="frame" x="41" y="333" width="239" height="42"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Ayuda">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FZx-H3-40Q" kind="show" id="ldB-ZV-EOj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wb8-eL-55N">
+                                <rect key="frame" x="41" y="211" width="239" height="42"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Practicar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ne9-J5-Cee" kind="show" id="y1S-Df-cBn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conjuntos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxd-uu-wnz">
+                                <rect key="frame" x="91" y="159" width="138" height="56"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="USm-st-X6Q">
+                                <rect key="frame" x="50" y="9" width="221" height="158"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="975-Sf-rdW">
+                                <rect key="frame" x="131" y="400" width="58" height="53"/>
+                                <state key="normal" image="info-1"/>
+                                <connections>
+                                    <segue destination="93M-sf-Z3w" kind="show" id="hsq-Je-sRx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf6-aV-I5N">
+                                <rect key="frame" x="41" y="273" width="239" height="42"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Personalizado">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AB1-mY-BaZ" kind="show" id="YDn-Cx-5L2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.086274509803921567" green="0.62745098039215685" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imaLogo" destination="USm-st-X6Q" id="dqp-ec-aCN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-867" y="-778"/>
+        </scene>
+        <!--Temas View Controller-->
+        <scene sceneID="IuU-EV-48g">
+            <objects>
+                <viewController id="ne9-J5-Cee" customClass="TemasViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8rd-gH-5a1"/>
+                        <viewControllerLayoutGuide type="bottom" id="g0q-SE-0kC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d3L-oM-XKX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="Lrk-fT-pTw">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.28235294117647058" green="0.69019607843137254" blue="0.47450980392156861" alpha="0.69070581896551719" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.28235294117647058" green="0.69019607843137254" blue="0.47450980392156861" alpha="0.6901400862068966" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Selecciona el tema" id="YRg-TD-XlO">
+                                        <barButtonItem key="backBarButtonItem" title="Volver" id="7Q0-lM-gea"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo2-1" translatesAutoresizingMaskIntoConstraints="NO" id="CEJ-To-OAO">
+                                <rect key="frame" x="66" y="229" width="188" height="127"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2e-Xo-Xsq">
+                                <rect key="frame" x="41" y="364" width="239" height="45"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Continuar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bPJ-3I-dP5" kind="show" identifier="comenzar" id="oGS-yO-yhD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gi-fb-aHe">
+                                <rect key="frame" x="41" y="426" width="239" height="46"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="NxK-KY-Fgy"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpP-uf-gjJ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="157"/>
+                                <color key="backgroundColor" red="0.28235294117647058" green="0.69019607843137254" blue="0.47450980392156861" alpha="0.74857219827586208" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imagen" destination="CEJ-To-OAO" id="6K9-N9-vwC"/>
+                        <outlet property="pickerTemas" destination="PpP-uf-gjJ" id="6Lc-w2-Q3o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UhL-59-Egk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92" y="-582"/>
+        </scene>
+        <!--Pregunta View Controller-->
+        <scene sceneID="YkJ-69-7Qv">
+            <objects>
+                <viewController id="bPJ-3I-dP5" customClass="preguntaViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5tg-bC-uIt"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fzc-21-ot2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AWK-ye-nJB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Vdg-jV-yP4">
+                                <rect key="frame" x="-50" y="30" width="420" height="252"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jw3-Dl-nrP">
+                                <rect key="frame" x="92" y="70" width="34" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSZ-hk-LeF">
+                                <rect key="frame" x="146" y="249" width="34" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMU-b4-GXx">
+                                <rect key="frame" x="144" y="130" width="33" height="33"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="LZt-V4-IV2"/>
+                                    <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="C1∩C2∩C3" popoverAnchorView="EMU-b4-GXx" id="yE6-ly-rjO">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVZ-NB-DHs">
+                                <rect key="frame" x="143" y="68" width="35" height="54"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="cW3-xF-hlO"/>
+                                    <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="C1∩C2" popoverAnchorView="WVZ-NB-DHs" id="nuY-BO-xhM">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26Q-Xh-yqd">
+                                <rect key="frame" x="176" y="150" width="46" height="33"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="aiJ-GR-zMQ"/>
+                                    <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="C2∩C3" popoverAnchorView="26Q-Xh-yqd" id="4Jz-gE-h3R">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tef-42-pQG">
+                                <rect key="frame" x="98" y="150" width="46" height="33"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="0Qc-V1-8Uo"/>
+                                    <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="C1∩C3" popoverAnchorView="tef-42-pQG" id="398-iY-slv">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4C-jW-cLB">
+                                <rect key="frame" x="164" y="385" width="136" height="30"/>
+                                <state key="normal" title="Respuesta 4" backgroundImage="Verde">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="seleccionaRespuesta:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="xuF-Pw-fDP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsw-IU-pD4">
+                                <rect key="frame" x="20" y="385" width="136" height="30"/>
+                                <state key="normal" title="Respuesta 3" backgroundImage="Verde">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="seleccionaRespuesta:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="PIB-Yy-Yyi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIb-f5-9Ea">
+                                <rect key="frame" x="164" y="347" width="136" height="30"/>
+                                <state key="normal" title="Respuesta 2" backgroundImage="Verde">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="seleccionaRespuesta:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="GXx-0c-3x8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selecciona la respuesta correcta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rh-X1-CNm">
+                                <rect key="frame" x="38" y="19" width="250" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ml-Ot-aYN">
+                                <rect key="frame" x="38" y="45" width="101" height="99"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="e3A-Ud-ZpI"/>
+                                    <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="C1" popoverAnchorView="4Ml-Ot-aYN" id="R05-6g-lH6">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJx-od-fmT">
+                                <rect key="frame" x="188" y="45" width="94" height="95"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="sJq-au-q2c"/>
+                                    <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="C2" popoverAnchorView="SJx-od-fmT" id="7Q5-8r-daK">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ft5-NJ-H40">
+                                <rect key="frame" x="22" y="418" width="136" height="41"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Finalizar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lk3-wp-cyP" kind="show" identifier="fin" id="YFI-Hr-5PU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2c-LW-QDi">
+                                <rect key="frame" x="166" y="418" width="139" height="41"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Calificar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="presionaCalifica:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="pnj-40-poh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enD-PF-thh">
+                                <rect key="frame" x="196" y="71" width="34" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVT-2G-aUg">
+                                <rect key="frame" x="90" y="191" width="140" height="91"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="wND-vg-v4y"/>
+                                    <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="C3" popoverAnchorView="yVT-2G-aUg" id="cn2-Un-OaY">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uK-8N-Tm8">
+                                <rect key="frame" x="20" y="347" width="136" height="30"/>
+                                <state key="normal" title="Respuesta 1" backgroundImage="Verde">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="seleccionaRespuesta:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="GQe-Qp-VJF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPU-Sp-m9k">
+                                <rect key="frame" x="20" y="301" width="280" height="45"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHl-Lp-91G">
+                                <rect key="frame" x="109" y="278" width="102" height="30"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="15"/>
+                                <state key="normal" title="Ver universo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="verUniverso:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="okV-2t-FKL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bCalificar" destination="d2c-LW-QDi" id="Nu5-dl-il7"/>
+                        <outlet property="bFinalizar" destination="Ft5-NJ-H40" id="th0-hW-oyc"/>
+                        <outlet property="bRespuesta1" destination="5uK-8N-Tm8" id="1J2-gt-0b9"/>
+                        <outlet property="bRespuesta2" destination="cIb-f5-9Ea" id="lAf-sA-8Z5"/>
+                        <outlet property="bRespuesta3" destination="lsw-IU-pD4" id="wZd-1U-lJG"/>
+                        <outlet property="bRespuesta4" destination="T4C-jW-cLB" id="saW-CQ-tbA"/>
+                        <outlet property="btnAmarillo" destination="yVT-2G-aUg" id="Vep-Hu-9RE"/>
+                        <outlet property="btnAzul" destination="4Ml-Ot-aYN" id="wbN-CE-Ajo"/>
+                        <outlet property="btnCafe" destination="EMU-b4-GXx" id="gcA-ls-4PL"/>
+                        <outlet property="btnMorado" destination="WVZ-NB-DHs" id="vlp-L3-Gn3"/>
+                        <outlet property="btnNaranja" destination="26Q-Xh-yqd" id="dCj-Vw-mLS"/>
+                        <outlet property="btnRojo" destination="SJx-od-fmT" id="TjP-WA-uOi"/>
+                        <outlet property="btnVerde" destination="tef-42-pQG" id="T2n-1P-udo"/>
+                        <outlet property="imgConjunto" destination="Vdg-jV-yP4" id="xtr-iV-rdz"/>
+                        <outlet property="lbPregunta" destination="MPU-Sp-m9k" id="C7m-cZ-mGM"/>
+                        <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="respuesta" popoverAnchorView="AWK-ye-nJB" id="6Zc-u7-4ag">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                        <segue destination="6Z9-Jq-edi" kind="popoverPresentation" identifier="verUniverso" popoverAnchorView="AWK-ye-nJB" id="KA0-jr-7xz">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K1Y-kE-0l2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="549" y="-564"/>
+        </scene>
+        <!--Pop Over View Controller-->
+        <scene sceneID="Mb9-Le-Jxh">
+            <objects>
+                <viewController id="6Z9-Jq-edi" customClass="popOverViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tqm-7O-eSZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="z57-FD-QLF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H3u-Ab-8fb">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaZ-zo-PrI">
+                                <rect key="frame" x="0.0" y="0.0" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Texto" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tls-pJ-TFo">
+                                <rect key="frame" x="-1" y="0.0" width="151" height="100"/>
+                                <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="150" height="100"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="150" height="100"/>
+                    <connections>
+                        <outlet property="textoScroll" destination="Tls-pJ-TFo" id="2Ql-wG-cIN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sUB-kJ-pgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912" y="-552"/>
+        </scene>
+        <!--Resultados View Controller-->
+        <scene sceneID="aRK-2X-B1y">
+            <objects>
+                <viewController id="lk3-wp-cyP" customClass="resultadosViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vvf-yY-N5J"/>
+                        <viewControllerLayoutGuide type="bottom" id="nsH-dC-b3G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RNr-Q8-hDz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="pev-h1-rvg">
+                                <rect key="frame" x="1" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL6-OY-3s4">
+                                <rect key="frame" x="80" y="367" width="154" height="43"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Listo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dGt-kp-NWY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correctas / Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lE-8m-tsW">
+                                <rect key="frame" x="54" y="85" width="211" height="28"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8/10" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMJ-C9-x1y">
+                                <rect key="frame" x="0.0" y="126" width="322" height="28"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="34"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Correcto" translatesAutoresizingMaskIntoConstraints="NO" id="hrs-pb-VdA">
+                                <rect key="frame" x="73" y="198" width="176" height="83"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resultados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWn-r4-mj0">
+                                <rect key="frame" x="87" y="28" width="147" height="22"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="lbScore" destination="CMJ-C9-x1y" id="7MT-rz-gbM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nuy-Rk-XDD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-128" y="-1592"/>
+        </scene>
+        <!--Selecciona Conjunto View Controller-->
+        <scene sceneID="cIo-4r-SGh">
+            <objects>
+                <viewController id="AB1-mY-BaZ" customClass="seleccionaConjuntoViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZxR-c6-k2c"/>
+                        <viewControllerLayoutGuide type="bottom" id="rew-5n-hs2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HPd-xy-GPL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="Chs-aW-RZJ">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.086274509799999996" green="0.78277055370000004" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Selecciona el universo" id="0hx-N4-Ypn">
+                                        <barButtonItem key="backBarButtonItem" title="Volver" id="rs1-BX-7E3"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UkI-c9-6zM">
+                                <rect key="frame" x="57" y="190" width="207" height="131"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFf-nm-lwL">
+                                <rect key="frame" x="33" y="329" width="254" height="44"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Continuar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8PD-pX-UAx" kind="show" identifier="continuar" id="ODP-Uq-BPf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OsV-v2-RDO">
+                                <rect key="frame" x="33" y="381" width="254" height="44"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Crear Nuevo Universo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WQC-c2-TBP" kind="show" id="wea-iX-vyT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfd-oE-b2H">
+                                <rect key="frame" x="33" y="433" width="254" height="43"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="CDc-4B-7QS"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aa1-SM-hi1">
+                                <rect key="frame" x="0.0" y="64" width="320" height="122"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="conjuntoPicker" destination="Aa1-SM-hi1" id="w5L-rH-xht"/>
+                        <outlet property="imagen" destination="UkI-c9-6zM" id="PC5-jz-Veg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rZV-bm-wnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-906" y="402"/>
+        </scene>
+        <!--Crear Conjunto View Controller-->
+        <scene sceneID="Ac8-yz-xs0">
+            <objects>
+                <viewController id="WQC-c2-TBP" customClass="CrearConjuntoViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lY6-VL-GaZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="AIw-c7-eLa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HMe-7A-N7V">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="dvR-ET-khv">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.086274509799999996" green="0.78277055370000004" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Crear nuevo universo" id="De3-g9-SeX">
+                                        <barButtonItem key="backBarButtonItem" title="Volver" id="uk0-wI-bph"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eh5-gO-Xxj">
+                                <rect key="frame" x="34" y="139" width="252" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiN-md-57q">
+                                <rect key="frame" x="84" y="229" width="152" height="42"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Siguiente">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kfe-OJ-T7P" kind="show" identifier="siguiente" id="3cu-BN-ETP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4y-JW-zDE">
+                                <rect key="frame" x="84" y="345" width="152" height="44"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Cancelar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AB1-mY-BaZ" kind="show" id="sBk-g9-OS0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre del universo: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKn-CD-lbX">
+                                <rect key="frame" x="39" y="90" width="267" height="23"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16470588235294117" green="0.71372549019607845" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="UHH-O8-kGY" appends="YES" id="i74-cj-fdI"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bSiguiente" destination="yiN-md-57q" id="5NL-z5-zXD"/>
+                        <outlet property="tfNombre" destination="eh5-gO-Xxj" id="aYr-kd-edw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YtD-UH-HXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="UHH-O8-kGY">
+                    <connections>
+                        <action selector="quitaTeclado:" destination="WQC-c2-TBP" id="hGo-uW-m74"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="213" y="402"/>
+        </scene>
+        <!--Modifica Conjunto View Controller-->
+        <scene sceneID="srl-cm-qge">
+            <objects>
+                <viewController id="8PD-pX-UAx" customClass="modificaConjuntoViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aEc-Up-iTL"/>
+                        <viewControllerLayoutGuide type="bottom" id="jwL-a7-HyW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bmY-vI-Ot0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GpQ-BX-NkG">
+                                <rect key="frame" x="82" y="41" width="34" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmF-dr-Xhc">
+                                <rect key="frame" x="145" y="275" width="34" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJ5-oF-Po4">
+                                <rect key="frame" x="213" y="40" width="34" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKM-St-bDy">
+                                <rect key="frame" x="196" y="28" width="111" height="126"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="8PD-pX-UAx" eventType="touchUpInside" id="hu6-x6-ode"/>
+                                    <segue destination="9bs-Kl-V7P" kind="popoverPresentation" identifier="C2" popoverAnchorView="zKM-St-bDy" id="H8c-7W-z9Z">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHE-MJ-j5s">
+                                <rect key="frame" x="145" y="72" width="35" height="54"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="8PD-pX-UAx" eventType="touchUpInside" id="aF4-DL-aWN"/>
+                                    <segue destination="9bs-Kl-V7P" kind="popoverPresentation" identifier="C1∩C2" popoverAnchorView="IHE-MJ-j5s" id="7SP-cV-BfH">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9i-RR-zQQ">
+                                <rect key="frame" x="152" y="134" width="28" height="24"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="8PD-pX-UAx" eventType="touchUpInside" id="njY-st-wb9"/>
+                                    <segue destination="9bs-Kl-V7P" kind="popoverPresentation" identifier="C1∩C2∩C3" popoverAnchorView="d9i-RR-zQQ" id="nrp-Gw-mgd">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUc-i2-sLL">
+                                <rect key="frame" x="177" y="160" width="55" height="32"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="8PD-pX-UAx" eventType="touchUpInside" id="ccO-3C-ROb"/>
+                                    <segue destination="9bs-Kl-V7P" kind="popoverPresentation" identifier="C2∩C3" popoverAnchorView="rUc-i2-sLL" id="lIY-j6-8Wi">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zX8-WS-l4s">
+                                <rect key="frame" x="84" y="205" width="165" height="96"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="8PD-pX-UAx" eventType="touchUpInside" id="9mB-hr-3Hq"/>
+                                    <segue destination="9bs-Kl-V7P" kind="popoverPresentation" identifier="C3" popoverAnchorView="zX8-WS-l4s" id="Pss-f3-0EK">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ey4-NS-9C0">
+                                <rect key="frame" x="89" y="160" width="55" height="32"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="8PD-pX-UAx" eventType="touchUpInside" id="ejK-Ts-J0f"/>
+                                    <segue destination="9bs-Kl-V7P" kind="popoverPresentation" identifier="C1∩C3" popoverAnchorView="ey4-NS-9C0" id="zhm-Zs-MSX">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WqM-13-lCK">
+                                <rect key="frame" x="13" y="28" width="124" height="111"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="8PD-pX-UAx" eventType="touchUpInside" id="zgY-Bb-DFz"/>
+                                    <segue destination="9bs-Kl-V7P" kind="popoverPresentation" identifier="C1" popoverAnchorView="WqM-13-lCK" id="4ni-uh-NJ7">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="completo" translatesAutoresizingMaskIntoConstraints="NO" id="W1C-Oh-aO3">
+                                <rect key="frame" x="-9" y="10" width="339" height="305"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E85-BL-0h2">
+                                <rect key="frame" x="81" y="331" width="170" height="41"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Agregar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="beh-dI-grw" kind="show" identifier="anadir" id="tL1-dI-Cp1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w48-rC-EcH">
+                                <rect key="frame" x="82" y="380" width="170" height="41"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Continuar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="continuar:" destination="8PD-pX-UAx" eventType="touchUpInside" id="zHF-3s-wQ7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAz-DZ-DRq">
+                                <rect key="frame" x="81" y="429" width="170" height="41"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AB1-mY-BaZ" kind="show" identifier="regresar" id="VkM-Pv-t4H"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfR-Fc-m4Q">
+                                <rect key="frame" x="20" y="309" width="53" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="elementos agregados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvS-gu-Ah4">
+                                <rect key="frame" x="83" y="309" width="186" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="btnAmarillo" destination="zX8-WS-l4s" id="i6m-7o-cOV"/>
+                        <outlet property="btnAzul" destination="WqM-13-lCK" id="iZ7-7v-kaX"/>
+                        <outlet property="btnCafe" destination="d9i-RR-zQQ" id="kWb-hg-WRm"/>
+                        <outlet property="btnMorado" destination="IHE-MJ-j5s" id="Vel-5G-GA3"/>
+                        <outlet property="btnNaranja" destination="rUc-i2-sLL" id="z6j-lr-O7b"/>
+                        <outlet property="btnRojo" destination="zKM-St-bDy" id="e9E-Fz-xhs"/>
+                        <outlet property="btnVerde" destination="ey4-NS-9C0" id="iul-Eu-VQR"/>
+                        <outlet property="imgConjunto" destination="W1C-Oh-aO3" id="kaf-pJ-BXU"/>
+                        <outlet property="lbCantElementos" destination="xfR-Fc-m4Q" id="aiS-gQ-1OD"/>
+                        <segue destination="bPJ-3I-dP5" kind="show" identifier="continuar" id="hpq-15-nHd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0vf-Lr-viK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="402"/>
+        </scene>
+        <!--Pop Over2 View Controller-->
+        <scene sceneID="Gm7-cU-Y52">
+            <objects>
+                <viewController id="9bs-Kl-V7P" customClass="popOver2ViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KNH-9i-n6S"/>
+                        <viewControllerLayoutGuide type="bottom" id="nfH-qd-92y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rL1-cj-7zI">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Texto" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDA-ah-mTL">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+                                <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72796226088556293" green="0.93393874982598002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="150" height="100"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="150" height="100"/>
+                    <connections>
+                        <outlet property="textarea" destination="WDA-ah-mTL" id="QL3-03-ExV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ceD-MZ-4Wr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1356" y="480"/>
+        </scene>
+        <!--Agregar View Controller-->
+        <scene sceneID="qt2-Jm-f5J">
+            <objects>
+                <viewController id="beh-dI-grw" customClass="agregarViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="doL-Tv-Trf"/>
+                        <viewControllerLayoutGuide type="bottom" id="6ag-Ie-474"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dsd-Ih-eH0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="completo" translatesAutoresizingMaskIntoConstraints="NO" id="sGt-hy-Cr4">
+                                <rect key="frame" x="-9" y="28" width="339" height="305"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxd-cB-Kpl">
+                                <rect key="frame" x="84" y="180" width="55" height="32"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="beh-dI-grw" eventType="touchUpInside" id="nYg-e8-mab"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmj-Vj-Req">
+                                <rect key="frame" x="17" y="45" width="101" height="111"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="beh-dI-grw" eventType="touchUpInside" id="BxE-ga-Txg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nn0-tj-SHo">
+                                <rect key="frame" x="211" y="45" width="94" height="114"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="beh-dI-grw" eventType="touchUpInside" id="FLg-wQ-1ww"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynG-Az-l08">
+                                <rect key="frame" x="140" y="89" width="35" height="54"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="beh-dI-grw" eventType="touchUpInside" id="YaH-lf-FfD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6G-N7-vUi">
+                                <rect key="frame" x="147" y="151" width="28" height="24"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="beh-dI-grw" eventType="touchUpInside" id="zCs-sm-c5L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAc-fa-xJH">
+                                <rect key="frame" x="176" y="162" width="55" height="32"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="beh-dI-grw" eventType="touchUpInside" id="AlF-gr-GA2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSD-qD-AdG">
+                                <rect key="frame" x="80" y="220" width="165" height="96"/>
+                                <connections>
+                                    <action selector="oprimeFigura:" destination="beh-dI-grw" eventType="touchUpInside" id="X58-6u-SwI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selecciona el conjunto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVU-iE-2Nu">
+                                <rect key="frame" x="68" y="20" width="184" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selecciona el elemento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wtm-CY-e2U">
+                                <rect key="frame" x="72" y="332" width="233" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8O6-4y-lAX">
+                                <rect key="frame" x="211" y="49" width="42" height="22"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1q4-xr-Q8s">
+                                <rect key="frame" x="147" y="294" width="30" height="22"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihl-ad-96l">
+                                <rect key="frame" x="76" y="56" width="42" height="22"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sF9-KV-k3t">
+                                <rect key="frame" x="0.0" y="356" width="320" height="68"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dn-xl-nmv">
+                                <rect key="frame" x="20" y="432" width="104" height="41"/>
+                                <color key="backgroundColor" red="0.38431372549019605" green="0.72549019607843135" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleColor" red="0.9569503453" green="1" blue="0.93084269529999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8PD-pX-UAx" kind="show" identifier="regresar" id="TVG-Rg-jN6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9b-lF-gIn">
+                                <rect key="frame" x="206" y="432" width="104" height="41"/>
+                                <color key="backgroundColor" red="0.38431372549019605" green="0.72549019607843135" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Agregar">
+                                    <color key="titleColor" red="0.9569503453" green="1" blue="0.93084269529999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="presionaAgregar:" destination="beh-dI-grw" eventType="touchUpInside" id="p0I-GU-ohw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="btnAmarillo" destination="TSD-qD-AdG" id="2vb-r4-2vb"/>
+                        <outlet property="btnAzul" destination="bmj-Vj-Req" id="nsn-5i-135"/>
+                        <outlet property="btnCafe" destination="O6G-N7-vUi" id="h0R-av-2un"/>
+                        <outlet property="btnMorado" destination="ynG-Az-l08" id="kdl-Vy-gOb"/>
+                        <outlet property="btnNaranja" destination="lAc-fa-xJH" id="YYg-Jj-Pj2"/>
+                        <outlet property="btnRojo" destination="Nn0-tj-SHo" id="QzZ-bZ-2nm"/>
+                        <outlet property="btnVerde" destination="Hxd-cB-Kpl" id="Afe-lJ-ZLE"/>
+                        <outlet property="imgConjunto" destination="sGt-hy-Cr4" id="lpL-gZ-acm"/>
+                        <outlet property="pickerElemento" destination="sF9-KV-k3t" id="XFF-ZQ-oge"/>
+                        <segue destination="8PD-pX-UAx" kind="show" identifier="anadir" id="rTd-CV-4na"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NAi-3J-032" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1714" y="82"/>
+        </scene>
+        <!--Agregar Conjunto View Controller-->
+        <scene sceneID="jUh-jl-eQ8">
+            <objects>
+                <viewController id="kfe-OJ-T7P" customClass="agregarConjuntoViewController" customModule="AppConjuntos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uVj-OF-Zi4"/>
+                        <viewControllerLayoutGuide type="bottom" id="e91-8G-Vzg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mrr-uc-lzA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="L0s-re-rNT">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.086274509799999996" green="0.78277055370000004" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Crear nuevo universo" id="81h-0n-vdp">
+                                        <barButtonItem key="backBarButtonItem" title="Volver" id="yUv-s4-eFz"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cqM-lw-c9L">
+                                <rect key="frame" x="20" y="138" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre del elemento:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wea-Mw-7M6">
+                                <rect key="frame" x="15" y="109" width="293" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0z-N4-Wqz">
+                                <rect key="frame" x="55" y="176" width="211" height="39"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Agregar elemento">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="presionaAgregar:" destination="kfe-OJ-T7P" eventType="touchUpInside" id="kyQ-j5-HY0"/>
+                                    <action selector="quitaTeclado:" destination="kfe-OJ-T7P" eventType="touchUpInside" id="bxb-zK-gLB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GA-mB-bY3">
+                                <rect key="frame" x="69" y="402" width="185" height="39"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Cancelar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AB1-mY-BaZ" kind="show" id="k4z-Gx-xMB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre del universo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZb-Vi-yvQ">
+                                <rect key="frame" x="-21" y="78" width="374" height="23"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBH-aA-3Xv">
+                                <rect key="frame" x="69" y="346" width="185" height="43"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.72549019609999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Crear universo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="crearConjunto:" destination="kfe-OJ-T7P" eventType="touchUpInside" id="DNR-3v-VOk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dM-00-XCT">
+                                <rect key="frame" x="28" y="217" width="262" height="121"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16470588235294117" green="0.71372549019607845" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Co4-qY-shu" appends="YES" id="2eW-8w-u4S"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bAgregar" destination="H0z-N4-Wqz" id="Kaz-T5-zpD"/>
+                        <outlet property="lbConjunto" destination="0dM-00-XCT" id="wZg-1D-FNg"/>
+                        <outlet property="lbNombre" destination="UZb-Vi-yvQ" id="PYA-3x-YYE"/>
+                        <outlet property="nombreElemento" destination="cqM-lw-c9L" id="hFk-cI-vtB"/>
+                        <outlet property="tfNombreElemento" destination="cqM-lw-c9L" id="dZP-ZU-LI2"/>
+                        <segue destination="AB1-mY-BaZ" kind="show" identifier="crear" id="Ura-3H-J8v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hq2-fS-iGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Co4-qY-shu">
+                    <connections>
+                        <action selector="quitaTeclado:" destination="kfe-OJ-T7P" id="6L0-qj-QCi"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-354" y="402"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6oG-d1-zru">
+            <objects>
+                <viewController id="FZx-H3-40Q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e77-Be-X8j"/>
+                        <viewControllerLayoutGuide type="bottom" id="n9S-Wn-XVQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rWw-yA-uDa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dh2-ic-Vkw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nomeclatura usada en Conjuntos y explicación breve de los temas:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1H-zH-EqV">
+                                <rect key="frame" x="12" y="90" width="305" height="38"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Unión:                                    U" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDa-ay-amb">
+                                <rect key="frame" x="56" y="121" width="209" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Intersección:                      ∩" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cn3-qy-yYK">
+                                <rect key="frame" x="56" y="150" width="209" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subconjunto:                     ⊂" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMc-Dg-S82">
+                                <rect key="frame" x="56" y="179" width="209" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diferencia:                            -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNz-sO-uCb">
+                                <rect key="frame" x="56" y="200" width="209" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conjunto Vacío:                { }" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Tj-0i-gua">
+                                <rect key="frame" x="56" y="229" width="209" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Complemento:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqe-AJ-EaB">
+                                <rect key="frame" x="56" y="253" width="209" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="c" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mln-wY-R7s">
+                                <rect key="frame" x="239" y="253" width="16" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqO-xx-gVf">
+                                <rect key="frame" x="26" y="13" width="269" height="94"/>
+                                <string key="text">La APP Conjuntos trabaja en dos modos: Practicar y Personalizado.  En el modo Practicar podrás hacer ejercicios seleccionando el tema de tu interés, mientras que en el Personalizado podrás crear y practicar tus propios conjuntos.</string>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="11"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vw-Zf-TDi">
+                                <rect key="frame" x="4" y="282" width="313" height="124"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Unión: Conjunto que contiene todos los elementos que pertenecen por lo menos a uno de los conjuntos A o B.                 Intersección: Conjunto cuyos elementos pertenecen a los dos conjuntos A y B.                                                               Subconjunto: Un conjunto B es subconjunto de un conjunto A si B está contenido dentro de A.                                                                Diferencia: Conjunto que contiene todos los elementos de A que no están en B.                                                                      Complemento: Conjunto formado por los elementos que no pertenecen a A.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCv-AI-GvA">
+                                <rect key="frame" x="95" y="414" width="131" height="23"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="12"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Fbm-nq-UKY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XDD-NL-ceC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1352" y="-734"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0rm-WT-91f">
+            <objects>
+                <viewController id="93M-sf-Z3w" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iL0-Q1-Nv1"/>
+                        <viewControllerLayoutGuide type="bottom" id="LK5-7v-CwB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BIo-dH-iTR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="b4m-LY-NXY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boy" translatesAutoresizingMaskIntoConstraints="NO" id="Toi-ln-Qrb">
+                                <rect key="frame" x="3" y="53" width="126" height="63"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boy" translatesAutoresizingMaskIntoConstraints="NO" id="ayZ-IX-Lno">
+                                <rect key="frame" x="206" y="49" width="111" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Girl" translatesAutoresizingMaskIntoConstraints="NO" id="shm-Rz-64J">
+                                <rect key="frame" x="120" y="53" width="87" height="66"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Israel Hernández Leal" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tq-qQ-z7u">
+                                <rect key="frame" x="22" y="125" width="88" height="61"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Martha Benavides Martínez" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEq-Aa-eWJ">
+                                <rect key="frame" x="120" y="125" width="88" height="61"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="José González Ayerdi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjY-n2-GB6">
+                                <rect key="frame" x="217" y="125" width="88" height="61"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desarrolladores" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F87-xS-yXY">
+                                <rect key="frame" x="76" y="20" width="181" height="21"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="is0-cU-JSC">
+                                <rect key="frame" x="3" y="194" width="314" height="149"/>
+                                <string key="text">Conjuntos ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Enero Mayo del 2016, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño.</string>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conjuntos se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDJ-pS-cAL">
+                                <rect key="frame" x="2" y="308" width="317" height="101"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W52-m8-xqr">
+                                <rect key="frame" x="78" y="399" width="168" height="37"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="RqY-Zg-K2t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="47c-za-7c2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1419" y="-25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Boy" width="256" height="256"/>
+        <image name="Correcto" width="128" height="128"/>
+        <image name="Girl" width="256" height="256"/>
+        <image name="Logo2-1" width="2000" height="1847"/>
+        <image name="Verde" width="1280" height="1280"/>
+        <image name="background" width="1080" height="1920"/>
+        <image name="completo" width="2000" height="1847"/>
+        <image name="info-1" width="1024" height="1024"/>
+        <image name="logo" width="2000" height="1847"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Fbm-nq-UKY"/>
+        <segue reference="YDn-Cx-5L2"/>
+        <segue reference="KA0-jr-7xz"/>
+        <segue reference="hpq-15-nHd"/>
+        <segue reference="TVG-Rg-jN6"/>
+        <segue reference="zhm-Zs-MSX"/>
+    </inferredMetricsTieBreakers>
+</document>
