@@ -563,9 +563,20 @@ class Ejercicio: NSObject {
             
     
             // se generan las respuestas incorrectas
-            generarRespuestasIncorrectas(cIncorrecto)
+           
+                generarRespuestasIncorrectas(cIncorrecto)
             
             
+            if cRespuestaIncorrecta1.cantidadElementos() == 0 || cRespuestaIncorrecta2.cantidadElementos() == 0 || cRespuestaIncorrecta3.cantidadElementos() == 0 || cRespuesta.cantidadElementos() == 0 {
+                print("HAPPENED")
+                
+                setTema("subconjunto")
+                vaciarConjunto(0)
+                vaciarConjunto(1)
+                vaciarConjunto(2)
+                distribuirElementos()
+                comenzar()
+            }
             
             
             break
