@@ -294,7 +294,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIb-f5-9Ea">
-                                <rect key="frame" x="164" y="385" width="136" height="30"/>
+                                <rect key="frame" x="164" y="409" width="136" height="30"/>
                                 <state key="normal" title="Respuesta 2" backgroundImage="Verde">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -364,7 +364,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uK-8N-Tm8">
-                                <rect key="frame" x="20" y="385" width="136" height="30"/>
+                                <rect key="frame" x="20" y="409" width="136" height="30"/>
                                 <state key="normal" title="Respuesta 1" backgroundImage="Verde">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -372,12 +372,6 @@
                                     <action selector="seleccionaRespuesta:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="GQe-Qp-VJF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPU-Sp-m9k">
-                                <rect key="frame" x="20" y="333" width="280" height="39"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3f-ZU-KJS">
                                 <rect key="frame" x="109" y="302" width="102" height="30"/>
                                 <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="15"/>
@@ -388,6 +382,12 @@
                                     <action selector="verUniverso:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="rRS-tw-nUK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPU-Sp-m9k">
+                                <rect key="frame" x="20" y="333" width="280" height="74"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
                     </view>

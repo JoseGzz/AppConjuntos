@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -98,17 +97,6 @@
                                     <segue destination="FZx-H3-40Q" kind="show" id="ldB-ZV-EOj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf6-aV-I5N">
-                                <rect key="frame" x="68" y="480" width="239" height="42"/>
-                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
-                                <state key="normal" title="Personalizado">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="AB1-mY-BaZ" kind="show" id="YDn-Cx-5L2"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wb8-eL-55N">
                                 <rect key="frame" x="68" y="423" width="239" height="42"/>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -134,6 +122,17 @@
                                 <state key="normal" image="info-1"/>
                                 <connections>
                                     <segue destination="93M-sf-Z3w" kind="show" id="hsq-Je-sRx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf6-aV-I5N">
+                                <rect key="frame" x="68" y="485" width="239" height="42"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.69411764710000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="24"/>
+                                <state key="normal" title="Personalizado">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AB1-mY-BaZ" kind="show" id="YDn-Cx-5L2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1295,11 +1294,11 @@
         <image name="logo" width="2000" height="1847"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="YDn-Cx-5L2"/>
         <segue reference="Fbm-nq-UKY"/>
-        <segue reference="ds0-VR-H81"/>
         <segue reference="hpq-15-nHd"/>
         <segue reference="TVG-Rg-jN6"/>
-        <segue reference="VkM-Pv-t4H"/>
         <segue reference="zhm-Zs-MSX"/>
+        <segue reference="ds0-VR-H81"/>
     </inferredMetricsTieBreakers>
 </document>
