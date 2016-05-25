@@ -84,7 +84,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="RMk-r1-tgo">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTE-tn-HMd">
                                 <rect key="frame" x="68" y="545" width="239" height="42"/>
@@ -145,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-701" y="-664"/>
+            <point key="canvasLocation" x="-701.5" y="-664.5"/>
         </scene>
         <!--Temas View Controller-->
         <scene sceneID="IuU-EV-48g">
@@ -282,9 +282,6 @@
                                     <action selector="seleccionaRespuesta:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="GQe-Qp-VJF"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Vdg-jV-yP4">
-                                <rect key="frame" x="-23" y="105" width="420" height="252"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jw3-Dl-nrP">
                                 <rect key="frame" x="125" y="126" width="34" height="21"/>
                                 <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="22"/>
@@ -388,6 +385,9 @@
                                     <action selector="verUniverso:" destination="bPJ-3I-dP5" eventType="touchUpInside" id="5sQ-pF-gX9"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Vdg-jV-yP4">
+                                <rect key="frame" x="-23" y="105" width="420" height="252"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -471,9 +471,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="pev-h1-rvg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resultados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWn-r4-mj0">
                                 <rect key="frame" x="114" y="44" width="147" height="22"/>
                                 <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="28"/>
@@ -506,6 +503,9 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="pev-h1-rvg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.16078431372549018" green="0.69411764705882351" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -516,7 +516,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nuy-Rk-XDD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-128" y="-1592"/>
+            <point key="canvasLocation" x="-128.5" y="-1592.5"/>
         </scene>
         <!--Selecciona Conjunto View Controller-->
         <scene sceneID="cIo-4r-SGh">
@@ -1114,9 +1114,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dh2-ic-Vkw">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nomeclatura usada en Conjuntos y explicación breve de los temas:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1H-zH-EqV">
                                 <rect key="frame" x="35" y="113" width="305" height="93"/>
                                 <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="17"/>
@@ -1191,6 +1188,9 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Fbm-nq-UKY"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dh2-ic-Vkw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1212,9 +1212,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="b4m-LY-NXY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boy" translatesAutoresizingMaskIntoConstraints="NO" id="Toi-ln-Qrb">
                                 <rect key="frame" x="-16" y="97" width="177" height="93"/>
                             </imageView>
@@ -1272,6 +1269,9 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="RqY-Zg-K2t"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="b4m-LY-NXY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1294,11 +1294,11 @@
         <image name="logo" width="2000" height="1847"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YDn-Cx-5L2"/>
-        <segue reference="Fbm-nq-UKY"/>
         <segue reference="hpq-15-nHd"/>
         <segue reference="TVG-Rg-jN6"/>
         <segue reference="zhm-Zs-MSX"/>
         <segue reference="ds0-VR-H81"/>
+        <segue reference="YDn-Cx-5L2"/>
+        <segue reference="RqY-Zg-K2t"/>
     </inferredMetricsTieBreakers>
 </document>
